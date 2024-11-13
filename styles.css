@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+h1, h2 {
+    color: #333;
+}
+header {
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    padding: 10px 0;
+    font-size: 2em;
+    text-align: center;
+    width: 100%;
+}
+figure {
+    margin: 20px;
+}
+
+img {
+    width: 500px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+figcaption {
+    margin-top: 10px;
+    font-style: italic;
+    color: #555;
+}
+
+/* Styling for dividers */
+hr {
+    width: 80%;
+    border: 1px solid #ddd;
+    margin: 30px auto;
+}
+
+/* Section titles styling */
+.section-title {
+    font-size: 1.5em;
+    margin-top: 20px;
+    color: #333;
+}
+
+/* Button styling */
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Styling for the video */
+video {
+    width: 600px;
+    margin: 20px 0;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 600px) {
+    img, video {
+        width: 100%;
+    }
+}
